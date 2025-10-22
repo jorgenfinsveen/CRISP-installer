@@ -3,9 +3,9 @@
 export ROOT="$HOME/crisp/crisp-framework"
 export MESA_SIM="$ROOT/mesa-vulkan-sim/lib"
 export VK_ICD_FILENAMES="$MESA_SIM/share/vulkan/icd.d/lvp_icd.x86_64.json"
-export EMBREE_ROOT="$HOME//opt/embree-3.13.5.x86_64.linux"
-export VULKAN_SDK="$HOME//opt/vulkansdk/current/x86_64"
-export CUDA_HOME="$HOME//usr/local/cuda-11.8"
+export EMBREE_ROOT="$HOME/opt/embree-3.13.5.x86_64.linux"
+export VULKAN_SDK="$HOME/opt/vulkansdk/current/x86_64"
+export CUDA_HOME="$HOME/usr/local/cuda-11.8"
 export CUDA_INSTALL_PATH=$CUDA_HOME
 export PATH=$VULKAN_SDK/bin:$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$EMBREE_ROOT/lib:$CUDA_HOME/lib64:$VULKAN_SDK/lib
