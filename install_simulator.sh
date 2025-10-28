@@ -3,7 +3,7 @@ mkdir -p crisp
 cd crisp
 git clone https://github.com/JRPan/crisp-artifact.git crisp-framework
 cd crisp-framework
-wget https://github.com/jorgenfinsveen/CRISP-installer/blob/main/local_export.sh
+wget https://raw.githubusercontent.com/jorgenfinsveen/CRISP-installer/main/local_export.sh
 source local_export.sh
 
 source $ROOT/vulkan-sim/setup_environment
